@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tregoning/testing-github-actions/issues"
   },
-  "homepage": "https://github.com/tregoning/testing-github-actions#readme"
+  "homepage": "https://github.com/tregoning/testing-github-actions#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
