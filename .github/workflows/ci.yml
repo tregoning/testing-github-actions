@@ -27,6 +27,6 @@ jobs:
     - name: Run Lighthouse against a static dist dir
       run: |
         npm install -g @lhci/cli
-        lhci autorun --rc-overrides.upload.target=temporary-public-storage --config=./lighthouserc.json
+        lhci autorun --config=./lighthouserc.json
       env:
         LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
