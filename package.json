@@ -1,0 +1,22 @@
+{
+  "name": "testing-github-actions",
+  "version": "1.0.0",
+  "description": "Testing Github Actions",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tregoning/testing-github-actions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tregoning/testing-github-actions/issues"
+  },
+  "homepage": "https://github.com/tregoning/testing-github-actions#readme"
+}
