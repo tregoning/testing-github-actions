@@ -29,4 +29,3 @@ jobs:
       with:
         configPath: './lighthouserc.json'
         temporaryPublicStorage: true
-        upload.token: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
