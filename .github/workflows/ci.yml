@@ -25,7 +25,8 @@ jobs:
       env:
         CI: true
     - name: Run Lighthouse against a static dist dir
-      uses: treosh/lighthouse-ci-action@v2
-      with:
-        configPath: './lighthouserc.json'
-        temporaryPublicStorage: true
+      run: |
+        npm install -g @lhci/cli
+        lhci autorun --rc-overrides.upload.target=temporary-public-storage --config=./lighthouserc.json
+      env:
+        LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
