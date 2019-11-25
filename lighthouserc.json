@@ -4,7 +4,8 @@
       "staticDistDir": "./dist"
     },
      "upload": {
-      "target": "temporary-public-storage"
+      "target": "lhci",
+      "serverBaseUrl": "https://lighthouseci.herokuapp.com/"
     }
   }
 }
